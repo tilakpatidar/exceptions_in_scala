@@ -18,9 +18,6 @@ object BasicTryValueDemo extends App {
     //assert failure
     assert(filePath(null).isFailure)
 
-    //all exceptions in scala are unchecked exceptions
-    throw new IOException
-
   }
 
 }
